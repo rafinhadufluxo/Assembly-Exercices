@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n, aux, primo = 1;
+    int n, aux,resul, primo = 1;
 
-    printf("Digite um numero inteiro: ");
-    scanf("%d", &n);
+    // printf("Digite um numero inteiro: ");
+    // scanf("%d", &n);
+    n = 7;
     
-    for (aux = 2; aux <= n/2; aux++)
+    resul = n /2;
+
+    for (aux = 2; aux <= resul; aux++)
         if ((n % aux) == 0)
             primo = 0;
     
