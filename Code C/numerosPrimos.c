@@ -14,12 +14,15 @@ int main() {
             primo = 0;
     
     
+    // printf("%d\n", primo);
 
 
     if (primo == 1)
         printf("Numero primo\n");
     else
         printf("Numero composto\n");
+
+
 
 
     return 0;
