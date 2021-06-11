@@ -3,9 +3,9 @@
 int main() {
     int n, aux,resul, primo = 1;
 
-    // printf("Digite um numero inteiro: ");
-    // scanf("%d", &n);
-    n = 7;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &n);
+    
     
     resul = n /2;
 
@@ -14,7 +14,6 @@ int main() {
             primo = 0;
     
     
-    // printf("%d\n", primo);
 
 
     if (primo == 1)
